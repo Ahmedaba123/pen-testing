@@ -1,0 +1,17 @@
+output for dirb without # :
+START_TIME: Fri Dec 27 04:58:42 2024
+URL_BASE: http://localhost:3000/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://localhost:3000/ ----
++ http://localhost:3000/assets (CODE:301|SIZE:156)                                                                                                                                                                
++ http://localhost:3000/ftp (CODE:200|SIZE:11072)                                                                                                                                                                 
+                                                                                                                                                                                                                  
+                                                                               
+-----------------
+END_TIME: Fri Dec 27 04:59:23 2024
+DOWNLOADED: 2790 - FOUND: 2

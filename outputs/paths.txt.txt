@@ -1,0 +1,4 @@
+admin path:
+/#/administration
+othe paths obtaining in dev tools:
+#/contact,#/about,address/saved
