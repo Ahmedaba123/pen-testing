@@ -1,0 +1,4 @@
+1-command without #:
+dirb http://localhost:3000/ 
+2-command with # :
+dirb http://localhost:3000/#/

